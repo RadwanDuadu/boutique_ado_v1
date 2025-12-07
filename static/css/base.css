@@ -5,7 +5,7 @@ html {
 body {
     background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: calc(100vh - 164px);
+    /* height: calc(100vh - 164px); */
     color: #555;
     font-family: 'Lato';
 }
@@ -75,6 +75,18 @@ a.category-badge > span.badge:hover {
     color: #fff !important;
 }
 
+.btt-button {
+    position: fixed !important;
+    bottom: 20px !important;
+    right: 20px !important;
+    width: 50px !important;
+    height: 50px !important;
+    z-index: 9999 !important;
+    background-color: white;
+}
+.btt-link {
+    cursor: pointer;
+}
 
 
 /* -------------------------------- Media Queries */
@@ -107,7 +119,7 @@ a.category-badge > span.badge:hover {
         padding-top: 116px;
     }
 
-    body {
+    /* body {
         height: calc(100vh - 116px);
-    }
+    } */
 }
